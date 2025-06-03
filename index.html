@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ZHUXIN 燭心工作室</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>ZHUXIN 燭心工作室</h1>
+    <p>燃燒燭芯帶來的溫暖，是燭心的初心</p>
+    <nav>
+      <button class="active" data-tab="home">首頁</button>
+      <button data-tab="about">關於我們</button>
+      <button data-tab="service">服務項目</button>
+      <button data-tab="contact">聯絡我們</button>
+    </nav>
+  </header>
+  <main>
+    <div id="home" class="tab-content active">
+      <h2>療癒你的每一天</h2>
+      <p>專注手作香氛蠟燭與擴香石，讓溫暖香氣陪伴你的生活。<br>
+        從選材到包裝，每一份作品都注入我們的用心與溫度。</p>
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="溫暖香氛" style="width:100%;border-radius:18px;margin-top:16px;box-shadow:0 2px 8px rgba(255,170,133,0.10)">
+    </div>
+    <div id="about" class="tab-content">
+      <h2>品牌故事</h2>
+      <p>
+        ZHUXIN 燭心工作室源自對手作香氛的熱愛，<br>
+        我們相信一顆小小的蠟芯，也能點亮生活中的溫暖角落。<br>
+        無論是自用還是送禮，<br>
+        我們都希望帶給你療癒與平靜的香氣時光。
+      </p>
+      <ul style="color:var(--text-light);margin-top:24px;">
+        <li>手作香氛蠟燭</li>
+        <li>天然擴香石工藝</li>
+        <li>客製化禮品設計</li>
+      </ul>
+    </div>
+    <div id="service" class="tab-content">
+      <h2>服務項目</h2>
+      <ul style="padding-left:16px;line-height:2;">
+        <li>香氛蠟燭製作與販售</li>
+        <li>擴香石手作與訂製</li>
+        <li>婚禮/活動客製禮品</li>
+        <li>企業合作與教學工作坊</li>
+        <li>香氛相關課程與體驗</li>
+      </ul>
+    </div>
+    <div id="contact" class="tab-content">
+      <h2>聯絡我們</h2>
+      <p>有任何需求或合作想法，歡迎與我們聯繫！</p>
+      <form style="margin-top:18px;display:flex;flex-direction:column;gap:12px;">
+        <input type="text" placeholder="您的名字" required style="padding:8px;border-radius:12px;border:1px solid #FFE5D0;">
+        <input type="email" placeholder="您的Email" required style="padding:8px;border-radius:12px;border:1px solid #FFE5D0;">
+        <textarea placeholder="您的訊息" required style="padding:8px;border-radius:12px;border:1px solid #FFE5D0;resize:vertical;"></textarea>
+        <button type="submit" style="background:var(--primary);color:white;border:none;border-radius:12px;padding:10px;font-size:1rem;cursor:pointer;">送出訊息</button>
+      </form>
+      <div style="margin-top:16px;color:var(--text-light);font-size:0.97rem;">
+        Email：zhuxin.candle@gmail.com<br>
+        Instagram：@zhuxin.candle
+      </div>
+    </div>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
