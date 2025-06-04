@@ -9,58 +9,133 @@
 </head>
 <body>
   <header>
-    <h1>ZHUXIN 燭心工作室</h1>
-    <p>燃燒燭芯帶來的溫暖，是燭心的初心</p>
-    <nav>
-      <button class="active" data-tab="home">首頁</button>
-      <button data-tab="about">關於我們</button>
-      <button data-tab="service">服務項目</button>
-      <button data-tab="contact">聯絡我們</button>
+    <nav class="navbar">
+      <div class="logo-area">
+        <img src="https://cdn.pixabay.com/photo/2017/01/31/20/14/candle-2027636_1280.png" alt="ZHUXIN LOGO" class="logo">
+        <span class="brand-title">ZHUXIN 燭心工作室</span>
+      </div>
+      <div class="nav-links">
+        <button class="active" data-tab="home">首頁</button>
+        <button data-tab="about">關於我們</button>
+        <button data-tab="service">服務項目</button>
+        <button data-tab="contact">聯絡我們</button>
+      </div>
     </nav>
   </header>
   <main>
+    <!-- 首頁區塊 -->
     <div id="home" class="tab-content active">
-      <h2>療癒你的每一天</h2>
-      <p>專注手作香氛蠟燭與擴香石，讓溫暖香氣陪伴你的生活。<br>
-        從選材到包裝，每一份作品都注入我們的用心與溫度。</p>
-      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="溫暖香氛" style="width:100%;border-radius:18px;margin-top:16px;box-shadow:0 2px 8px rgba(255,170,133,0.10)">
+        <div class="hero-section">
+            <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1 class="hero-brand">ZHUXIN<br>燭心工作室</h1>
+            <p class="hero-subtitle">燃燒燭芯帶來的溫暖，是燭心的初心</p>
+        </div>
+        </div>
     </div>
+
+    <!-- 關於我們區塊 -->
     <div id="about" class="tab-content">
-      <h2>品牌故事</h2>
-      <p>
-        ZHUXIN 燭心工作室源自對手作香氛的熱愛，<br>
-        我們相信一顆小小的蠟芯，也能點亮生活中的溫暖角落。<br>
-        無論是自用還是送禮，<br>
-        我們都希望帶給你療癒與平靜的香氣時光。
-      </p>
-      <ul style="color:var(--text-light);margin-top:24px;">
-        <li>手作香氛蠟燭</li>
-        <li>天然擴香石工藝</li>
-        <li>客製化禮品設計</li>
-      </ul>
+      <section class="aboutus-container">
+        <div class="aboutus-col left">
+          <h3>品牌故事</h3>
+          <h4>燃燒燭芯帶來的溫暖，是燭心的初心</h4>
+          <p>
+            ZHUXIN 燭心工作室源自對手作香氛的熱愛，<br>
+            我們相信一顆小小的蠟芯，也能點亮生活中的溫暖角落。<br>
+            無論是自用還是送禮，<br>
+            我們都希望帶給你療癒與平靜的香氣時光。
+          </p>
+          <p style="color:var(--text-light);margin-top:18px;">
+            每一份作品，都有故事，每一份香氣，都有溫度。
+          </p>
+          <a class="about-btn" href="#">更多品牌故事</a>
+        </div>
+        <div class="aboutus-col center">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=420&q=80" alt="Candle" class="aboutus-img">
+        </div>
+        <div class="aboutus-col right">
+          <h3>品牌理念</h3>
+          <p>
+            <span class="highlight">我們相信「香氛即是生活的療癒力量」</span><br>
+            堅持選用天然成分，專注於每一個細節，只為讓溫暖與平靜真正走進你心裡。
+          </p>
+          <ul class="about-vision">
+            <li>天然、安心的香氛體驗</li>
+            <li>用香氣療癒每一天</li>
+            <li>手作質感，獨一無二</li>
+          </ul>
+          <a class="about-btn" href="#">了解我們理念</a>
+        </div>
+      </section>
     </div>
+
+    <!-- 服務項目區塊 -->
     <div id="service" class="tab-content">
-      <h2>服務項目</h2>
-      <ul style="padding-left:16px;line-height:2;">
-        <li>香氛蠟燭製作與販售</li>
-        <li>擴香石手作與訂製</li>
-        <li>婚禮/活動客製禮品</li>
-        <li>企業合作與教學工作坊</li>
-        <li>香氛相關課程與體驗</li>
-      </ul>
+  <div class="service-section">
+    <h2 class="service-title">服務項目</h2>
+    <div class="service-grid">
+      <!-- 1 -->
+      <div class="service-item">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="香氛蠟燭及擴香石" class="service-img">
+        <div class="service-text">
+          <div class="service-icon"><span>🕯️</span></div>
+          <div>
+            <h3>香氛蠟燭・擴香石販售</h3>
+            <p>嚴選天然成分手作蠟燭與擴香石，為你的空間注入溫暖與療癒香氣。</p>
+          </div>
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="service-item">
+        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80" alt="婚禮小物製作" class="service-img">
+        <div class="service-text">
+          <div class="service-icon"><span>💍</span></div>
+          <div>
+            <h3>婚禮小物製作</h3>
+            <p>專屬於你的客製化婚禮禮品，讓愛與祝福伴隨香氛，成為難忘回憶。</p>
+          </div>
+        </div>
+      </div>
+      <!-- 3 -->
+      <div class="service-item">
+        <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="企業合作" class="service-img">
+        <div class="service-text">
+          <div class="service-icon"><span>🤝</span></div>
+          <div>
+            <h3>企業合作</h3>
+            <p>提供專業香氛禮品客製、品牌聯名，及團體手作工作坊，為企業增添溫度。</p>
+          </div>
+        </div>
+      </div>
+      <!-- 4 -->
+      <div class="service-item">
+        <img src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=400&q=80" alt="香氛相關課程與體驗" class="service-img">
+        <div class="service-text">
+          <div class="service-icon"><span>🎨</span></div>
+          <div>
+            <h3>香氛相關課程與體驗</h3>
+            <p>提供香氛蠟燭、擴香石等多元手作課程，讓你親手打造專屬於自己的療癒香氣作品。</p>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+</div>
+
+    <!-- 聯絡我們區塊 -->
     <div id="contact" class="tab-content">
       <h2>聯絡我們</h2>
       <p>有任何需求或合作想法，歡迎與我們聯繫！</p>
-      <form style="margin-top:18px;display:flex;flex-direction:column;gap:12px;">
-        <input type="text" placeholder="您的名字" required style="padding:8px;border-radius:12px;border:1px solid #FFE5D0;">
-        <input type="email" placeholder="您的Email" required style="padding:8px;border-radius:12px;border:1px solid #FFE5D0;">
-        <textarea placeholder="您的訊息" required style="padding:8px;border-radius:12px;border:1px solid #FFE5D0;resize:vertical;"></textarea>
-        <button type="submit" style="background:var(--primary);color:white;border:none;border-radius:12px;padding:10px;font-size:1rem;cursor:pointer;">送出訊息</button>
+      <form class="contact-form">
+        <input type="text" placeholder="您的名字" required>
+        <input type="email" placeholder="您的Email" required>
+        <textarea placeholder="您的訊息" required></textarea>
+        <button type="submit">送出訊息</button>
       </form>
-      <div style="margin-top:16px;color:var(--text-light);font-size:0.97rem;">
-        Email：zhuxin.candle@gmail.com<br>
-        Instagram：@zhuxin.candle
+      <div class="contact-info">
+        Email：zhuxin2022@gmail.com<br>
+        Instagram：@zhu.xin2022
       </div>
     </div>
   </main>
