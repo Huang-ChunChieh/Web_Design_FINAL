@@ -1,4 +1,3 @@
-// 分頁切換功能
 const navButtons = document.querySelectorAll('nav button');
 const tabContents = document.querySelectorAll('.tab-content');
 navButtons.forEach(btn => {
@@ -9,7 +8,7 @@ navButtons.forEach(btn => {
     document.getElementById(btn.dataset.tab).classList.add('active');
   });
 });
-// 假送出表單
+
 document.querySelector('form').addEventListener('submit', function(e){
   e.preventDefault();
   alert('感謝您的來信，我們會盡快回覆您！');
@@ -26,7 +25,6 @@ function switchTab(tab) {
   window.scrollTo({top: 0, behavior: 'smooth'});
 }
 
-// Hero Carousel 輪播
 const images = document.querySelectorAll('.carousel-image');
 const leftArrow = document.querySelector('.carousel-arrow.left');
 const rightArrow = document.querySelector('.carousel-arrow.right');
